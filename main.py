@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import rasterio
 from rasterio.warp import calculate_default_transform, reproject, Resampling
 from rasterio.enums import Resampling as ResamplingMethod
